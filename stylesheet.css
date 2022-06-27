@@ -111,15 +111,20 @@ img {
     margin: 50px;
     width: 170px;
     height: 150px;
+    border-radius: 10%;
+    border:darkgray solid;
     /* margin-top: -50px; */
 }
 .warranty {
     background-color: white;
+    display: flex;
+    flex-direction: column;
     margin: 50px;
-    width: 170px;
+    width: 150px;
     height: 150px;
     padding-right: 20px;
-    /* padding-top: 2em; */
+    border-radius: 10%;
+    border:darkgray solid;
 }
 .crafted {
     background-color: white;
@@ -127,15 +132,17 @@ img {
     width: 170px;
     height: 150px;
     margin-left: 50px;
+    border-radius: 10%;
+    border:darkgray solid;
     /* margin-top: -50px; */
 }
 .sub-footer {
     display: flex;
-    position: absolute;
-    margin: 80px;
-    justify-content: center;
-    bottom: -59em;
-    margin-left: 135px;
+    position: relative;
+    flex-wrap: wrap;
+    margin: -8em 25em 0 25em;
+    justify-content: space-around;
+    /* margin-left: 135px; */
 }
 .shipping img{
     width: 50px;
@@ -150,6 +157,7 @@ img {
     margin: 0 -10px;
     width: 90px;
     height: 90px;
+    padding-left: 50px;
 }
 .crafted p {
     text-align: center;
@@ -164,6 +172,7 @@ img {
 .warranty p {
     text-align: center;
     font-size: .7em;
+    padding-left: 20px;
 }
 footer {
     background-color: rgba(186, 183, 183, 0.604);
